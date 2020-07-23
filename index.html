@@ -8,6 +8,9 @@
         var title = getUrlParam('title', '')
         var desc = getUrlParam('desc', '')
 
-        document.write('<meta id="title" name="title" content="' + title +'">\n<meta id="description" name="description" content="' + desc + '">')
+        document.getElementById("title").innerHTML = title;
+        document.getElementById("description").innerHTML = desc;
     </script>
+    <meta id="description" name="description" content="">
+    <meta id="title" name="title" content="">
 </html>

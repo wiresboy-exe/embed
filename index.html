@@ -5,8 +5,8 @@
             return urlParams.get(parameter) || defaultValue;
         }
 
-        var title = getUrlParam('title', '')
-        var desc = getUrlParam('desc', '')
+        var title = getUrlParam('title', 'na')
+        var desc = getUrlParam('desc', 'na')
 
         document.getElementById("title").innerHTML = title;
         document.getElementById("description").innerHTML = desc;
